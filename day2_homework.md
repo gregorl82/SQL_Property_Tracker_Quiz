@@ -1,5 +1,5 @@
 <h2>MVP Questions</h2>
-In our Property Tracker application:
+In our Property Tracker application:<br>
 <br>
 Q1. Where are we instantiating instances of the Property class?
 
@@ -27,7 +27,7 @@ Q6. Why do we put a guard (an if clause) on the @id attribute in the constructor
 
 Q7. Why are some of the CRUD actions represented by instance methods, and others by class methods?
 
-<em>Some actions do not need an instance of the Property class to be instantiated and added to the database, and some actions are 'global' in the sense that they need to work on all the Property objects.</em>
+<em>Some actions are 'global' in the sense that they need to work on all of the Property objects in a database, so are represented by class methods. Other actions act on specific instances of the Property class so can be represented by instance methods.</em>
 
 Q8. What type of data structure is returned by calls to db.exec_prepared()? In the save method, how do we access the id from the returned data structure?
 
