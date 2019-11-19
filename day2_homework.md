@@ -1,6 +1,6 @@
 <h2>MVP Questions</h2>
 In our Property Tracker application:
-
+<br>
 Q1. Where are we instantiating instances of the Property class?
 
 <em>We are instantiating instances of the Property class in our test files (console.rb and property_spec.rb), or when we need to convert a PG::Result object to a Property object.</em>
@@ -46,4 +46,4 @@ Q10. What do they take in as their arguments?
 
 Q11. What are their return values?
 
-<em>The return values are PG::Result objects which take the form of hashes containing the retrieved data in String format.</em>
+<em>The return values are PG::Result objects which take the form of hashes containing the retrieved data in String format. These can be converted to Property objects using the map method and Property.new.</em>
